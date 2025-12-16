@@ -16,5 +16,32 @@ class switcha{
             default:
                                 System.out.println("worst performance");
         }
+         performance p = new performance();
+         p.printDay();
+
     }
 }
+class performance extends switcha{
+    int day= 4;
+    void printDay(){
+    switch(day){
+        case 1:
+            System.out.println("monday");
+            break;
+
+            case 2:
+            System.out.println("tuesday");
+            break;
+    case 3:
+            System.out.println("wednsday");
+            break;
+    case 4:
+            System.out.println("thursday");
+            break;
+    default:
+            System.out.println("holiday");
+
+
+    }
+
+}}
