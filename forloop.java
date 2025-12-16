@@ -8,3 +8,5 @@ public class forloop{
         System.out.println();
     }}
 }
+
+/* one loop inside another loop is called nested loop */

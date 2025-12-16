@@ -1,7 +1,13 @@
+import java.util.Scanner;
 class Ifelse{
     public static void main(String []args){
-        int Marks = 75;
-        if(Marks>=90){
+        Scanner sc =  new Scanner(System.in);
+        System.out.println("enter your marks?");
+        int Marks = sc.nextInt();
+        if(Marks==100){
+            System.out.println("O");
+        }
+        else if(Marks>=90){
             System.out.println("A+");
         }
         else if(Marks>=85){
