@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+/* do{condition } while(ethre vennam enn)*/
     public class Dowhilee{
            public static void main(String []args){
             Scanner sc = new Scanner(System.in);
@@ -18,7 +20,23 @@ import java.util.Scanner;
                 m++;
             }
             while(m<=20);
+                
+                Christmas ch = new Christmas();
+                ch.christ();
            }
+    }
+    class Christmas extends Dowhilee {
+          void christ(){
+                            int Chri = 4;
+            do{ 
+                System.out.println("The new Year starts in : ");
+                System.out.println(Chri);
+                Chri --;
+            }
+            while(Chri>0);
+                            System.out.print("happy new year");
+
+          }
     }
 
     
