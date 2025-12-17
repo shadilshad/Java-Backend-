@@ -9,7 +9,7 @@ import java.util.Scanner;
 
             do{
                 if(m<20){
-                System.out.println("the next number "+m+" for reaching to 20" );
+                System.out.println("the next number is "+m+" for reaching to 20" );
                 }
                 else if(m==20){
                 System.out.println("thats the same number "+m+" as 20" );
@@ -27,9 +27,10 @@ import java.util.Scanner;
     }
     class Christmas extends Dowhilee {
           void christ(){
-                            int Chri = 4;
-            do{ 
+                int Chri = 4;
                 System.out.println("The new Year starts in : ");
+
+            do{ 
                 System.out.println(Chri);
                 Chri --;
             }
