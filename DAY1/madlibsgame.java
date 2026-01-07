@@ -9,6 +9,6 @@ public class madlibsgame {
         System.out.println("write the missing part: ");
         String miss = sc.nextLine();
         System.out.println("Today i went to a " + miss +" zoo");
-
+        sc.close();
     }
 }
