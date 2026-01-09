@@ -11,7 +11,6 @@ public class Beforeoverloading {
 
         String answer;
 
-        // keep asking until input is YES or NO
         do {
             System.out.print("Do you want me to guess a number? (YES/NO): ");
             answer = sc.nextLine();
@@ -25,10 +24,10 @@ public class Beforeoverloading {
         // valid input reached here
         if(answer.equalsIgnoreCase("YES")){
             int guess = ran.nextInt(1, 11);
-            System.out.printf("I guessed %d 😄\n", guess);
+            System.out.printf("I guessed %d \n", guess);
         }
         else{
-            System.out.println("Alright, maybe next time 👍");
+            System.out.println("Alright, maybe next time ");
         }
     }
 }
