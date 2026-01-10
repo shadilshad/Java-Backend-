@@ -40,11 +40,16 @@ public class arithmatic {
         System.out.printf("%d / %d = %.2f\n", x, y, c);
     }
     }
+    else if(choice.equalsIgnoreCase("Exit")){
+       System.out.println("Thanks for playing with us!");
+       break;
+
+    }
     else{
         System.out.println("Invalid Actions!\n");
     }
-}while(!choice.equalsIgnoreCase("Exit"));
-   System.out.println("Thanks for playing with us!");
-    sc.close(); 
+}while(true);
+
+ sc.close();
 }
 }
