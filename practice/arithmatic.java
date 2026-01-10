@@ -1,6 +1,6 @@
 package practice;
 import java.util.Scanner;
-public class umpavam {
+public class arithmatic {
     public static void main(String[] args) {
         
     
@@ -19,31 +19,32 @@ public class umpavam {
     int b = x * y;
     double c =(double) x / y ;
 
-    System.out.print("Which action do you wanna perform? (Pick the exact one + , - , x , / ) ");
+    do{
+    System.out.print("Which action do you wanna perform? (Pick the exact one + , - , x , / ) or type 'exit' to quit: ");
     choice = sc.nextLine();
 
 
     if(choice.equals("+")){
-        System.out.printf("%d + %d = %d",x,y,z);
+        System.out.printf("%d + %d = %d\n",x,y,z);
     }
     else if(choice.equals("-")){
-    System.out.printf("%d - %d = %d",x,y,a);
+    System.out.printf("%d - %d = %d\n",x,y,a);
     }
     else if(choice.equalsIgnoreCase("x")){
-        System.out.printf("%d x %d = %d",x,y,b);
+        System.out.printf("%d x %d = %d\n",x,y,b);
     }
     else if(choice.equalsIgnoreCase("/")){
     if(y == 0){
-        System.out.println("Cannot divide by zero!");
-    } else {
-        System.out.printf("%d / %d = %.2f", x, y, c);
+        System.out.println("Cannot divide by zero!\n");
+    } else{
+        System.out.printf("%d / %d = %.2f\n", x, y, c);
     }
     }
     else{
-        System.out.println("Invalid Actions!");
+        System.out.println("Invalid Actions!\n");
     }
-
+}while(!choice.equalsIgnoreCase("Exit"));
+   System.out.println("Thanks for playing with us!");
     sc.close(); 
-    
 }
 }
