@@ -1,4 +1,4 @@
-public class Encapsulation {
+public class encapsulation {
     public static void main(String[] args) {
         Students shado = new Students(156, "SHADIL VV", 88.4f, 7.82f);
 
