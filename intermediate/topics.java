@@ -3,12 +3,7 @@ public class topics {
 }
 
 //#46 07:41:37 method overriding ♻️
-//#47 07:46:08 tostring method 🎉
-//#48 07:51:58 abstraction 🌫️
-//#49 08:01:30 interfaces 📋
 //#50 08:07:44 polymorphism 🎭
-//#51 08:14:27 runtime polymorphism 🤷‍♂️
-//#52 08:19:35 getters and setters 🔐
 //#53 08:29:39 aggregation 🏫
 //54 08:39:02 composition ⚙️
 //#55 08:45:17 wrapper classes 🎁
