@@ -15,8 +15,15 @@ public class arraysdsa {
         }
 
         for(int num : number){
-            System.out.print(num + " ");
+            System.out.print(num + " \n");
         }
+
+        Scanner sc = new Scanner(System.in);
+        for(int i = 0 ; i< number2.length ; i++){
+        System.out.print("What are the numbers: ");
+        number2[i] = sc.nextInt();
+        }
+        System.out.println(Arrays.toString(number2));
     }
     
 }
