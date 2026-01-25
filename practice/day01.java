@@ -37,9 +37,6 @@ public class day01 {
             System.out.println(shop[0][i] + " - " + shop[1][i]+" : "+ shop[2][i]);
         }
 
-
-       ArrayList<String> chosenproducts = new ArrayList<>();
-       ArrayList<Integer> quanities = new ArrayList<>();
        
        while(true){
         System.out.println("Pick your products (Type 'STOP' for stoping it)");

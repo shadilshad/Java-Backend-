@@ -1,5 +1,4 @@
 package practice;
-
 public class maxmin {
     public static void main(String[] args) {
         
