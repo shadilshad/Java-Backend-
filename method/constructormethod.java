@@ -1,16 +1,16 @@
 package method;
 
-public interface constructormethod {
+public class constructormethod {
 public static void main(String[] args) {
-    Student sd= new Student("SHADIL VV", 22, 'M');
-    String wish;
-    System.out.println(sd.name);
+    String wish = "Hello";
+    names(wish);
 }
 
 
 
     static void names(String wish){
-        System.out.println("The given name is ");
+    Student sd= new Student("SHADIL VV", 22, 'M');
+        System.out.println(wish + "The given name is " + sd.name );
     }
 
 }
