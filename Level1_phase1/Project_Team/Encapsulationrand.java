@@ -13,7 +13,7 @@ public String getname(){ return name; }
 public String getdept(){ return dept; }
 public String getcharr(){ return charr; }
 public int getage(){ return age; }
-//setters
+//setters 
 public void setname(String name){ this.name = name; }
 public void setdept(String dept){ this.dept = dept ;}
 public void setcharr(String charr){ this.charr = charr;} 
@@ -24,5 +24,6 @@ public class Encapsulationrand{
         System.out.println("My friend "+ ui.getname() + " is studying "+ ui.getdept()
         + ". He is "+ui.getage()+" and he is "+ ui.getcharr());
     }
+    public  
     
 }
