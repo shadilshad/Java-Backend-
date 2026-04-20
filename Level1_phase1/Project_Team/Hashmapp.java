@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Hashmapp{
+public class Hashmapp {
     public static void main(String[] args) {
 
         HashMap<String, Integer> studentMarks = new HashMap<>();
